@@ -1,3 +1,9 @@
+{{
+  config(
+    materialized = 'view',
+    event_time='created_at'
+  )
+}} 
 WITH src_listings AS (
     SELECT * FROM {{ ref('src_listings') }}
 )
@@ -17,6 +23,7 @@ SELECT
     10,
     2
   ) AS price,
+  price_str,
   created_at,
   updated_at
 FROM
