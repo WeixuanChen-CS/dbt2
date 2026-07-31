@@ -1,0 +1,58 @@
+{
+    "path_count": 358,
+    "parsed_path_count": 1,
+    "static_analysis_path_count": 0,
+    "static_analysis_parsed_path_count": 0,
+    "is_partial_parse_enabled": true,
+    "is_static_analysis_enabled": true,
+    "read_files_elapsed": 0.030010290443897247,
+    "load_macros_elapsed": 0.00034570973366498947,
+    "parse_project_elapsed": 0.0698719173669815,
+    "patch_sources_elapsed": 1.3249926269054413e-05,
+    "process_manifest_elapsed": 0.00017133355140686035,
+    "load_all_elapsed": 0.24177570827305317,
+    "projects": [
+        {
+            "project_name": "airbnb",
+            "elapsed": 0.06965745892375708,
+            "parsers": [
+                {
+                    "parser": "seed",
+                    "elapsed": 0.06965270917862654,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 1
+        },
+        {
+            "project_name": "dbt_snowflake",
+            "elapsed": 0,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt",
+            "elapsed": 0,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt_utils",
+            "elapsed": 0,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt_date",
+            "elapsed": 0,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt_expectations",
+            "elapsed": 0,
+            "parsers": [],
+            "parsed_path_count": 0
+        }
+    ]
+}
